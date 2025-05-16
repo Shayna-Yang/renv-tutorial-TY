@@ -13,6 +13,10 @@ df <- Breslau
 ```
 
 ```{r}
-summary()
+summary(df)
+```
+
+```{r}
+plot(df$total, df$age)
 ```
 
